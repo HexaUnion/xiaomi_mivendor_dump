@@ -1,0 +1,23 @@
+{
+    "project_overlap_config_fn": "proj_overlap_config.json",
+    "device_ex_info_fn": "device_ex_info.json",
+
+    "earth_core_config": {
+        "sub_models": [
+            "/vendor/lib64/com.xiaomi.camhal.submodel.camxfrag.so",
+            "/vendor/lib64/com.xiaomi.camhal.submodel.chifrag.so"
+        ],
+        "ext_models": [
+            "/vendor/lib64/com.xiaomi.camhal.extmodel.ec_executor.so",
+            "/vendor/lib64/com.xiaomi.camhal.extmodel.intent_aware_sys.so",
+            "/vendor/lib64/com.xiaomi.camhal.extmodel.ec_diag_sys.so",
+            "/vendor/lib64/com.xiaomi.camhal.extmodel.catch_log_sys.so"
+        ],
+        "ec_exec_plugins": [
+        ],
+        "ec_script_plugins": [
+        ],
+        "extend_infos": ["ro.boot.camera.config"]
+    },
+    "__OVERLAP_NEW_CONFIG_INSERT_POINT__":0
+}
