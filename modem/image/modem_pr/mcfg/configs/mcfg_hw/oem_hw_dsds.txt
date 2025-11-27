@@ -1,0 +1,1 @@
+mcfg_hw/generic/common/Milos/STANDALONE/LA/DSDS_CDMALess/mcfg_hw.mbn

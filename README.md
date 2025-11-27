@@ -1,0 +1,20 @@
+## missi-user 15 AQ3A.240912.001 OS2.0.208.0.VOPMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: volcano
+- Codename: mivendor
+- Brand: Xiaomi
+- Flavor: missi-user
+- Release Version: 15
+- Kernel Version: 6.1.118
+- Id: AQ3A.240912.001
+- Incremental: OS2.0.208.0.VOPMIXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: undefined
+- Fingerprint: Xiaomi/mivendor_sm7635_global/mivendor:14/UKQ1.240624.001/OS2.0.208.0.VOPMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-15-AQ3A.240912.001-OS2.0.208.0.VOPMIXM-release-keys
+- Repo: xiaomi_mivendor_dump
