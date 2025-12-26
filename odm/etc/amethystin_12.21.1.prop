@@ -1,0 +1,9 @@
+# only customized property for in
+
+ro.product.odm.name=amethyst_in
+ro.product.odm.model=24115RA8EI
+ro.product.odm.cert=24115RA8EI
+ro.vendor.audio.clean_speaker = true
+ro.product.model_for_attestation = 24115RA8EI
+ro.product.name_for_attestation = amethyst_in
+ro.product.odm.marketname=Redmi Note 14 Pro+ 5G

@@ -1,0 +1,32 @@
+{
+    "name":"SMotion",
+    "version":"1.0",
+    "product":"amethyst",
+
+    "SUPER CHIP": {
+        "MODE":10002,
+        "DEFAULT":true,
+        "APP":[
+
+        ]
+    },
+
+    "SUPER ALGO": {
+        "MODE":10003,
+        "DEFAULT":true,
+        "APP":[
+
+        ],
+        "LEVEL":2  // range[1, 2, 3]
+    },
+
+    "SUPER_MISTOUCH": {
+        "MODE":10004,
+        "DEFAULT":true,
+        "APP":[
+
+        ],
+        "LEVEL":2  // range[1, 2, 3]
+    }
+}
+

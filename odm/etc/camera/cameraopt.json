@@ -1,0 +1,60 @@
+{
+    "version": "1.0",
+    "CameraBooster": {
+        "support": {
+            "camera_dynamics_zone_watermark_support": true,
+            "animation_inhibit_support": true
+        },
+        "threshold": {
+               "free_memory_threshold": 1677721,
+               "restart_kill_duration": 3000,
+               "camera_dynamics_zone_watermark_value": 20
+         },
+         "cpus_configs": {
+            "limit-level0": "0-1",
+            "limit-level1": "0-2",
+            "limit-level2": "0-3",
+            "limit-level3": "0-3"
+        },
+         "threshold_8Gmem": {
+            "free_memory_threshold": 1500000,
+            "camera_dynamics_zone_watermark_value": 40
+         }
+    },
+    "PerfParams":{
+        "SM7635": {
+            "camera_app_launch_boost":[
+                    "0x40804100, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF",
+                    "0x40800100, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF",
+                    "0x40804000, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xFFF",
+                    "0x40800000, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xFFF",
+                    "0x40804200, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xFFF",
+                    "0x40800200, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xFFF",
+                    "0x42808000, 0x2,      //GPU - min pwrlevel 0 (freq 940 Mhz)",
+                    "0x43C24000, 4096,   //MPCTLV3_CPUCTL_TOPAPP_CPUSHARE,          4096"
+            ],
+            "display_on_resource": [
+                    "0x40000000, 1,      //Display on resource opcode, value"
+            ],
+            "camera_post_process_boost": [
+                    "0x43C24000, 4096,   //MPCTLV3_CPUCTL_CAMERA_CPUSHARE,          4096"
+            ],
+            "provider_restart_perf_lock_params": [
+                "0x40400000, 1,      //MPCTLV3_ALL_CPUS_PWR_CLPS_DIS, 1",
+                "0x40C00000, 1,      //MPCTLV3_SCHED_BOOST, 1",
+                "0x43C1C100, 2265600,//MPCTLV3_SCHED_FMAX_CAP_LITTLE , 2265600",
+                "0x43C1C000, 3148800,//MPCTLV3_SCHED_FMAX_CAP_BIG , 3148800",
+                "0x43C1C300, 2956800,//MPCTLV3_SCHED_FMAX_CAP_TITANIUM , 2956800",
+                "0x40804100, 2265,   //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 2265",
+                "0x40800100, 2265,   //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 2265",
+                "0x40804000, 3148,   //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 3148",
+                "0x40800000, 3148,   //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 3148",
+                "0x40804200, 3187,   //MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 3187",
+                "0x40800200, 3187,   //MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 3187",
+                "0x43498000, 4224000,//MPCTLV3_BUS_DCVS_LLCC_DDR_BOOST_FREQ, 4224000",
+                "0x4349C000, 2035200,//MPCTLV3_BUS_DCVS_LLCC_L3_BOOST_FREQ, 2035200",
+                "0x434A0000, 1066000,//MPCTLV3_BUS_DCVS_LLCC_LLCC_BOOST_FREQ, 1066000"
+            ]
+        }
+    }
+}
