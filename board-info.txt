@@ -1,0 +1,3 @@
+require version-baseband=3.1.4.c2-00023-MILOS_GEN_PACK-2.79822.23.86552.48
+require version-trustzone=TZ.XF.5.28-00181-LANAIAAAAANAZT-1.76686.6
+require version-vendor=1762413541
