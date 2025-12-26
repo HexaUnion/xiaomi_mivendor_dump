@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MIUI ADD: Adapt_MIUIAdaptFrame-->
+<contents>
+    <designated-package name="com.miui.home" />
+</contents>
+<!-- END Adapt_MIUIAdaptFrame-->
